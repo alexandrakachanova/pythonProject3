@@ -13,8 +13,8 @@ def main():
 
     ls = Util.create_list(size)
 
-    # random_ init_list(ls) # элементы списка создаются рандомно
-    Util.user_init_list(ls) # юзер вручную заполняет элеменеты списка
+    Util.random_init_list(ls, -50, 50) # элементы списка создаются рандомно
+    # Util.user_init_list(ls) # юзер вручную заполняет элеменеты списка
 
     second = logic.find_second_max_value(ls)
     view.write(ls)
